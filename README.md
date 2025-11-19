@@ -1,2 +1,2 @@
 # JAVASCRIPT-PROJECTS
-This contains my Javascript work.
+This repository contains my Javascript projects and general work with Javascript.
