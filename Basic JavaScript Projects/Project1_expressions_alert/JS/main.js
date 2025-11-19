@@ -12,3 +12,6 @@ document.write(z);
 var cat = "Kuro", dog = "Shiro", raven = "ao" //multiple variables in one line//
 document.write(raven);
 document.write(20 + 20); //Math//
+function myFunction() {
+    document.getElementById("hello").innerHTML = "Para changed.";
+}
