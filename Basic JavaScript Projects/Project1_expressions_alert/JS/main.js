@@ -15,3 +15,5 @@ document.write(20 + 20); //Math//
 function myFunction() {
     document.getElementById("hello").innerHTML = "Para changed.";
 }
+var Sent1 = "This is the beginning of the string", Sent2 = " and this is the end of the string" //Made two variables//
+document.write( Sent1 + Sent2); //concatenated variables Sent1 and Sent2//
