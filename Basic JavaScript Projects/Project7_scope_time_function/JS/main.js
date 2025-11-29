@@ -20,9 +20,9 @@ function Add_numbers_4() {
 Add_numbers_3();
 Add_numbers_4();
 
-//intentional error fix in console log//
+//intentional error fix in console log (getElementById is missing)//
 function error_function() {
-    document.getElementById("error").innerHTML = "error fixed.";
+    document.("error").innerHTML = "error fixed.";
 }
 
 //if statement//
