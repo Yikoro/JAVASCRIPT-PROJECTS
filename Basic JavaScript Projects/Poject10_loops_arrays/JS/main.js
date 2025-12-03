@@ -61,6 +61,16 @@ function des_func() {
     + ", they are known to live up to " + animal.Life_exp;
 }
 
+//While loop goes thru a block of code as long as a specified conditon is true//
+function count_to_twenty() {
+    var Digit = "";
+    var z = 10;
+    while (z < 21) {
+        Digit += "<br>" + z;
+        z++;
+    }
+    document.getElementById("Twenty").innerHTML = Digit;
+}
     
 
  
