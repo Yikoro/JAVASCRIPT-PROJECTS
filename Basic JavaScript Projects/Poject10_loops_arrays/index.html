@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="JS/main.js"></script>
+    </head>
+    <body>
+        <p id="Loop"></p>
+        <button onclick="Call_Loop()">Click here to execute the loop.</button>
+        <p id="List_of_Anime"></p>
+        <button onclick="for_Loop()">CLick HERE!</button>
+        <p id="Array"></p>
+        <button onclick="array_Function()">CLickity clack</button>
+        <p id="Constant"></p>
+        <button onclick="constant_function()">Pon pon</button>
+        <p id="Back"></p>
+        <!--return gives you the value of specified return-->
+        <script>
+        function return_function(){
+        return Math.PI
+        }
+        document.getElementById("Back").innerHTML = return_function();
+        </script>
+
+        <p id="Animal_Object"></p>
+        <button onclick="des_func()">Tigress</button>
+
+        <!--break terminates a loop or switch statement-->
+        <p id="break"></p>
+        <script>
+             let txt = "";
+
+        for (let J = 0; J < 9; J++) {
+        if (J === 4) { break; }
+        txt += "The number is " + J + "<br>";
+        }
+        document.getElementById("break").innerHTML = txt;
+        </script>
+        
+        <!--Continue statement slips the current iteration in a loop-->
+        <p id="Words"></p>
+        <script>
+            let words = "";
+
+            for (let G = 1; G < 9; G++) {
+                if (G === 4) { continue; }
+                words += G*9 + "<br>";
+            }
+            document.getElementById("Words").innerHTML = words;
+        </script>
+    </body>
+</html>
